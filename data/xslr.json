@@ -1,0 +1,17 @@
+{
+  "login_001":{
+    "name":"藏品线索1",
+    "person":"水荣荣",
+    "expect_result":"新增成功"
+  },
+  "login_002":{
+    "name":"藏品线索2",
+    "person":"水荣荣",
+    "expect_result":"新增成功"
+  },
+  "login_003":{
+    "name":"藏品线索3",
+    "person":"水荣荣",
+    "expect_result":"新增成功"
+  }
+}
