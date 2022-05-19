@@ -119,7 +119,7 @@ designated_person = By.XPATH, "(//label[contains(text(), '指派人')]/following
 # 保存按钮
 save_btn = By.XPATH, "(//span[contains(text(), '保存')])[1]"
 # 关闭按钮
-close_btn = By.XPATH, "//button[@aria-label='Close']"
+close_btn = By.XPATH, "//button[@class='el-dialog__headerbtn']"
 # 取消按钮
 cancel_btn = By.XPATH, "//span[contains(text(), '取消')]"
 
