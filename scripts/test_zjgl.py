@@ -365,7 +365,7 @@ class TestLogin(unittest.TestCase):
     # 完成跟踪-测试方法
     @parameterized.expand(['提交成功！'])
     def test025(self, expect_result):
-        sleep(1)
+        sleep(3)
         self.login.page_trace_over()
         try:
             # 获取提示信息
