@@ -1,3 +1,4 @@
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from tool.get_log import GetLogger
 import time
@@ -11,6 +12,7 @@ class Base:
     def __init__(self, driver):
         log.info('初始化driver{}'.format(driver))
         self.driver = driver
+        self.action = ActionChains(self.driver)
 
     # 查找元素方法 (提供：点击、输入、获取文本)使用
     def base_find_element(self, loc, timeout=30, poll=0.5):
@@ -89,3 +91,23 @@ class Base:
         except:
             # 没找到元素
             return False
+
+    # 鼠标操作-元素右击
+    def base_context_click(self, loc):
+        log.info('正在右击元素:{}'.format(loc))
+        self.action.context_click(self.base_find_element(loc)).perform()
+
+    # 鼠标操作-元素双击
+    def base_double_click(self, loc):
+        log.info('正在右击元素:{}'.format(loc))
+        self.action.double_click(self.base_find_element(loc)).perform()
+
+    # 鼠标操作-元素拖动
+    def base_drag_and_drop(self, loc_source, loc_target):
+        log.info('正在从元素:{}拖动到元素:{}上'.format(loc_source, loc_target))
+        self.action.drag_and_drop(self.base_find_element(loc_source), self.base_find_element(loc_target)).perform()
+
+    # 鼠标操作-元素悬挺
+    def base_move(self, loc):
+        log.info('正在把鼠标悬停在元素:{}之上'.format(loc))
+        self.action.move_to_element(self.base_find_element(loc)).perform()
