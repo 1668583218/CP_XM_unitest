@@ -23,4 +23,8 @@ def import_file(file_name_path):
     sleep(1)
     # 点击打开
     dlg["打开(&O)"].click()
+    try:
+        dlg["打开(&O)"].click()
+    except:
+        pass
 
