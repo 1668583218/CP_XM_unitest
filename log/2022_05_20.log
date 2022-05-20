@@ -1,0 +1,921 @@
+2022-05-20 11:25:52,431 INFO [root] [base.py (__init__:13] - 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="52040294435438543232603ec49d7080")>
+2022-05-20 11:25:52,432 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '登录名')]/following-sibling::div/div/input")输入内容:shuirr
+2022-05-20 11:25:52,432 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '登录名')]/following-sibling::div/div/input")
+2022-05-20 11:25:52,488 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '登录名')]/following-sibling::div/div/input")清空
+2022-05-20 11:25:52,558 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '登录名')]/following-sibling::div/div/input")输入内容:shuirr
+2022-05-20 11:25:52,558 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '密码')]/following-sibling::div/div/input")输入内容:ok111111
+2022-05-20 11:25:52,558 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '密码')]/following-sibling::div/div/input")
+2022-05-20 11:25:52,600 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '密码')]/following-sibling::div/div/input")清空
+2022-05-20 11:25:52,732 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '密码')]/following-sibling::div/div/input")输入内容:ok111111
+2022-05-20 11:25:52,732 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '登录')]")
+2022-05-20 11:25:52,732 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '登录')]")
+2022-05-20 11:25:53,805 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '藏品管理')]")
+2022-05-20 11:25:53,805 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '藏品管理')]")
+2022-05-20 11:25:54,968 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '征集管理')]")
+2022-05-20 11:25:54,968 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '征集管理')]")
+2022-05-20 11:25:56,013 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '线索录入')]")
+2022-05-20 11:25:56,013 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '线索录入')]")
+2022-05-20 11:25:57,069 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:25:57,069 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:25:57,121 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索1
+2022-05-20 11:25:57,122 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:25:57,678 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:25:57,831 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索1
+2022-05-20 11:25:57,832 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:25:57,832 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:25:57,874 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")清空
+2022-05-20 11:25:57,991 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:25:57,992 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:25:57,992 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:25:58,033 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:25:58,033 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:25:58,088 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:25:58,088 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:25:58,152 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:25:58,152 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:25:59,651 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:25:59,651 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:00,686 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:26:00,686 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:26:00,710 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索2
+2022-05-20 11:26:00,710 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:26:01,259 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:26:01,429 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索2
+2022-05-20 11:26:01,430 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:26:01,430 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:01,460 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")清空
+2022-05-20 11:26:01,528 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:26:01,528 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:26:01,528 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:01,567 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:26:01,567 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:01,620 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:01,621 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:01,673 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:26:01,673 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:26:03,122 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:03,122 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:04,142 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:26:04,142 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:26:04,177 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索3
+2022-05-20 11:26:04,177 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:26:04,722 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:26:04,821 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索3
+2022-05-20 11:26:04,822 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:26:04,822 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:04,848 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")清空
+2022-05-20 11:26:04,937 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")输入内容:水荣荣
+2022-05-20 11:26:04,937 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:26:04,937 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:04,952 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:26:04,952 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '指派人')]/following-sibling::div/div/div/input)[1]")
+2022-05-20 11:26:05,013 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:05,013 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:05,067 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:26:05,067 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '取消')]")
+2022-05-20 11:26:06,205 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:06,205 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:07,213 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '导入')]")
+2022-05-20 11:26:07,213 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '导入')]")
+2022-05-20 11:26:07,325 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '选取文件')]")
+2022-05-20 11:26:07,326 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '选取文件')]")
+2022-05-20 11:26:16,632 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导入')])[4]")
+2022-05-20 11:26:16,632 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导入')])[4]")
+2022-05-20 11:26:16,662 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:26:16,663 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:26:17,750 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:17,750 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:19,779 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:26:19,779 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:26:19,819 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:26:19,819 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:26:20,435 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:26:20,436 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:26:20,490 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:26:20,490 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:26:26,574 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1
+2022-05-20 11:26:26,574 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:26:26,606 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:26:26,657 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1
+2022-05-20 11:26:26,658 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:26,658 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:28,742 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:26:28,742 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:26:29,774 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:26:29,774 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:26:30,830 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索1修改
+2022-05-20 11:26:30,830 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:26:30,862 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:26:30,969 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")输入内容:藏品线索1修改
+2022-05-20 11:26:30,969 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:30,969 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:26:31,012 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:26:31,012 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:26:32,067 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:32,067 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:33,091 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1修改
+2022-05-20 11:26:33,091 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:26:33,112 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:26:33,150 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1修改
+2022-05-20 11:26:33,150 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:33,150 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:35,182 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:26:35,182 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:26:36,195 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:36,195 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:36,240 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '废弃')]")
+2022-05-20 11:26:36,240 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '废弃')]")
+2022-05-20 11:26:36,320 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:废弃
+2022-05-20 11:26:36,320 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")
+2022-05-20 11:26:36,353 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")清空
+2022-05-20 11:26:36,397 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:废弃
+2022-05-20 11:26:36,397 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:26:36,397 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:26:37,472 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:37,472 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:37,515 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:26:37,515 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:26:38,866 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:38,866 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:39,875 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:26:39,875 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:26:39,886 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:26:39,924 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:26:39,924 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:39,924 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:41,955 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:26:41,955 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:26:42,973 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:42,973 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:42,988 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '批量指派')]")
+2022-05-20 11:26:42,989 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '批量指派')]")
+2022-05-20 11:26:44,056 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:44,056 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:45,085 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:45,085 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:46,104 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:26:46,104 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:26:46,133 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:26:46,176 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:26:46,177 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:46,177 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:48,218 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:26:48,218 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:26:49,237 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:49,237 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:26:49,256 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '批量指派')]")
+2022-05-20 11:26:49,257 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '批量指派')]")
+2022-05-20 11:26:50,302 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:50,302 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:26:51,327 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:26:51,327 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:26:52,349 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已指派')]")
+2022-05-20 11:26:52,349 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已指派')]")
+2022-05-20 11:26:53,423 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:26:53,423 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:26:53,478 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:26:53,478 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:26:53,624 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:26:53,625 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:26:53,701 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:26:53,701 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:26:59,846 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:26:59,846 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:26:59,864 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:26:59,899 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:26:59,899 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:26:59,899 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:01,971 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:27:01,971 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:27:02,989 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:02,989 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:04,083 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:27:04,083 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:27:04,104 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:04,104 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:06,173 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已废弃')]")
+2022-05-20 11:27:06,173 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已废弃')]")
+2022-05-20 11:27:07,261 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:07,261 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:07,301 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:07,302 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:07,915 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:07,915 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:07,963 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:07,963 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:14,047 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1修改
+2022-05-20 11:27:14,047 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:27:14,067 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:27:14,130 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索1修改
+2022-05-20 11:27:14,130 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:14,130 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:16,200 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:27:16,200 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:27:17,228 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:17,228 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:18,312 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:27:18,312 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:27:18,328 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:18,328 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:20,381 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '线索跟踪')]")
+2022-05-20 11:27:20,381 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '线索跟踪')]")
+2022-05-20 11:27:21,438 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:21,438 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:21,478 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:21,478 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:22,030 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:22,030 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:22,077 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:22,077 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:28,168 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:27:28,168 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:27:28,189 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:27:28,241 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:27:28,241 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:28,241 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:30,302 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:27:30,302 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:27:31,325 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:27:31,325 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:27:31,368 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '终止')]")
+2022-05-20 11:27:31,369 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '终止')]")
+2022-05-20 11:27:31,437 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")输入内容:2022-03-30 00:00:00
+2022-05-20 11:27:31,437 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[contains(@placeholder, '选择日期时间')]")
+2022-05-20 11:27:31,479 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")清空
+2022-05-20 11:27:31,574 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")输入内容:2022-03-30 00:00:00
+2022-05-20 11:27:31,574 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:终止
+2022-05-20 11:27:31,574 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")
+2022-05-20 11:27:31,611 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")清空
+2022-05-20 11:27:31,667 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:终止
+2022-05-20 11:27:31,667 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:27:31,667 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:27:32,744 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:27:32,744 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:27:32,773 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:27:32,773 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:27:34,163 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:27:34,163 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:27:35,176 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:27:35,176 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:27:35,192 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:27:35,261 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:27:35,261 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:35,261 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:37,299 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:27:37,299 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:27:38,323 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:38,323 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:38,398 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")输入内容:2022-03-30 00:00:00
+2022-05-20 11:27:38,398 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[contains(@placeholder, '选择日期时间')]")
+2022-05-20 11:27:38,521 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")清空
+2022-05-20 11:27:38,618 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[contains(@placeholder, '选择日期时间')]")输入内容:2022-03-30 00:00:00
+2022-05-20 11:27:38,618 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//textarea[contains(@class, 'el-textarea__inner')])[2]")输入内容:跟踪日志1
+2022-05-20 11:27:38,618 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//textarea[contains(@class, 'el-textarea__inner')])[2]")
+2022-05-20 11:27:38,644 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//textarea[contains(@class, 'el-textarea__inner')])[2]")清空
+2022-05-20 11:27:38,789 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//textarea[contains(@class, 'el-textarea__inner')])[2]")输入内容:跟踪日志1
+2022-05-20 11:27:38,789 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '添加')]")
+2022-05-20 11:27:38,789 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '添加')]")
+2022-05-20 11:27:38,867 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:38,867 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:38,924 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:27:38,924 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:27:40,157 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:27:40,157 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:27:43,176 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:27:43,176 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:27:43,205 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '完成跟踪')]")
+2022-05-20 11:27:43,209 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '完成跟踪')]")
+2022-05-20 11:27:44,264 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:27:44,264 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:27:45,288 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:27:45,288 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:27:46,312 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已完成')]")
+2022-05-20 11:27:46,312 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已完成')]")
+2022-05-20 11:27:47,384 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:47,384 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:27:47,434 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:47,434 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:27:47,551 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:47,551 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:27:47,653 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:47,654 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:27:53,821 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:27:53,821 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:27:53,853 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:27:53,901 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索3
+2022-05-20 11:27:53,901 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:53,901 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:27:55,965 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:27:55,965 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:27:56,989 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:56,989 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:27:58,131 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:27:58,131 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:27:58,141 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:27:58,141 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:00,243 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已终止')]")
+2022-05-20 11:28:00,243 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已终止')]")
+2022-05-20 11:28:01,299 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:28:01,299 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:28:01,350 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:28:01,350 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:28:01,959 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:28:01,959 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:28:02,018 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:28:02,018 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:28:08,120 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:28:08,120 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='线索名称']")
+2022-05-20 11:28:08,141 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='线索名称']")清空
+2022-05-20 11:28:08,194 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='线索名称']")输入内容:藏品线索2
+2022-05-20 11:28:08,194 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:08,194 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:10,264 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '(//tr/td)[2]/div')的文本
+2022-05-20 11:28:10,264 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '(//tr/td)[2]/div')
+2022-05-20 11:28:11,299 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:28:11,299 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:28:12,398 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:28:12,398 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '线索名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:28:12,408 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:12,408 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:14,467 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '征集录入')]")
+2022-05-20 11:28:14,474 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '征集录入')]")
+2022-05-20 11:28:14,514 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//div[contains(text(), '添加征集单')]")
+2022-05-20 11:28:14,514 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//div[contains(text(), '添加征集单')]")
+2022-05-20 11:28:15,106 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '单名称')]/following-sibling::div/div/input")输入内容:征集单1
+2022-05-20 11:28:15,107 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '单名称')]/following-sibling::div/div/input")
+2022-05-20 11:28:15,168 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '单名称')]/following-sibling::div/div/input")清空
+2022-05-20 11:28:15,235 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '单名称')]/following-sibling::div/div/input")输入内容:征集单1
+2022-05-20 11:28:15,236 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:15,236 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:15,316 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")输入内容:藏品线索3
+2022-05-20 11:28:15,316 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:15,364 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")清空
+2022-05-20 11:28:15,398 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")输入内容:藏品线索3
+2022-05-20 11:28:15,399 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:28:15,399 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:15,466 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:28:15,467 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '线索名称')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:15,497 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:28:15,497 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:28:16,563 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:16,563 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:17,586 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:17,586 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:17,683 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:17,683 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:17,747 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:17,747 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:17,851 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")清空
+2022-05-20 11:28:17,903 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:17,903 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:28:17,903 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:17,951 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:28:17,951 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:17,999 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品01
+2022-05-20 11:28:17,999 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:28:18,066 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:28:18,169 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品01
+2022-05-20 11:28:18,169 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:18,169 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:18,250 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:18,252 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:19,352 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:19,352 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:20,370 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:20,370 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:20,480 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:20,480 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:20,528 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:20,529 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:20,634 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")清空
+2022-05-20 11:28:20,689 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:20,689 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:28:20,689 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:20,736 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:28:20,736 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:20,795 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品02
+2022-05-20 11:28:20,795 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:28:20,862 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:28:20,999 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品02
+2022-05-20 11:28:20,999 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:20,999 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:21,048 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:21,048 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:22,178 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:22,178 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:23,192 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:23,192 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '新增')]")
+2022-05-20 11:28:23,290 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:23,291 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:23,330 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:23,330 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:23,427 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")清空
+2022-05-20 11:28:23,475 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")输入内容:征集单1
+2022-05-20 11:28:23,476 INFO [root] [base.py (base_keys:35] - 正在向下
+2022-05-20 11:28:23,476 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:23,521 INFO [root] [base.py (base_keys:37] - 正在回车
+2022-05-20 11:28:23,521 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所属征集单')]/following-sibling::div/div/div/input")
+2022-05-20 11:28:23,560 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品03
+2022-05-20 11:28:23,561 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:28:23,628 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:28:23,741 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品03
+2022-05-20 11:28:23,741 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:23,741 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:28:23,790 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:23,790 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:24,867 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:24,867 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:25,885 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '导入')]")
+2022-05-20 11:28:25,885 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '导入')]")
+2022-05-20 11:28:25,951 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '选取文件')]")
+2022-05-20 11:28:25,951 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '选取文件')]")
+2022-05-20 11:28:34,893 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导入')])[4]")
+2022-05-20 11:28:34,893 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导入')])[4]")
+2022-05-20 11:28:34,928 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:34,928 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:36,008 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:36,008 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:38,051 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:28:38,051 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:28:38,107 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:28:38,107 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:28:38,265 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:28:38,265 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:28:38,321 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:28:38,321 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:28:44,451 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品01
+2022-05-20 11:28:44,456 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:28:44,483 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:28:44,528 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品01
+2022-05-20 11:28:44,528 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:44,528 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:46,595 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:28:46,595 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:28:47,608 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:28:47,608 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:28:48,739 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品01修改
+2022-05-20 11:28:48,739 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:28:48,775 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:28:48,909 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")输入内容:藏品01修改
+2022-05-20 11:28:48,909 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '确定')])[2]")
+2022-05-20 11:28:48,909 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '确定')])[2]")
+2022-05-20 11:28:48,960 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:48,960 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:28:50,040 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:50,040 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:50,057 INFO [root] [base.py (base_get_image:81] - 正在截图
+2022-05-20 11:28:51,373 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品01修改
+2022-05-20 11:28:51,373 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:28:51,394 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:28:51,424 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品01修改
+2022-05-20 11:28:51,424 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:51,424 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:53,460 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:28:53,460 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:28:54,477 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:28:54,477 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:28:54,510 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '删除')]")
+2022-05-20 11:28:54,510 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '删除')]")
+2022-05-20 11:28:55,565 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:28:55,565 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:28:56,600 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:28:56,600 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:28:57,624 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:28:57,624 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:28:57,645 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:28:57,673 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:28:57,673 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:57,673 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:28:59,719 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:28:59,719 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:29:00,749 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:00,749 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:00,766 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '提交征集')]")
+2022-05-20 11:29:00,766 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '提交征集')]")
+2022-05-20 11:29:01,810 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:01,810 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:02,851 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:29:02,851 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:29:03,874 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:29:03,874 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:29:03,899 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:29:03,933 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:29:03,933 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:03,933 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:05,976 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:29:05,977 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:29:07,000 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:07,000 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:07,024 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '提交征集')]")
+2022-05-20 11:29:07,024 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '提交征集')]")
+2022-05-20 11:29:08,072 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:08,072 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:09,106 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:29:09,106 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:29:10,115 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已提交')]")
+2022-05-20 11:29:10,115 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已提交')]")
+2022-05-20 11:29:11,186 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:29:11,186 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:29:11,245 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:29:11,245 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:29:11,364 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:29:11,364 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:29:11,460 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:29:11,460 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:29:17,645 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:29:17,645 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:29:17,661 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:29:17,699 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:29:17,700 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:17,700 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:19,746 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:29:19,746 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:29:20,771 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:29:20,771 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:29:21,912 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:29:21,912 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:29:21,927 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:29:21,927 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:29:22,973 INFO [root] [base.py (base_get_image:81] - 正在截图
+2022-05-20 11:29:24,299 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '征集中')]")
+2022-05-20 11:29:24,299 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '征集中')]")
+2022-05-20 11:29:25,347 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:29:25,347 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:29:25,389 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:29:25,390 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:29:25,938 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:29:25,938 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:29:25,997 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:29:25,997 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:29:32,077 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:29:32,077 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:29:32,103 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:29:32,264 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:29:32,264 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:32,265 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:34,328 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:29:34,328 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:29:35,346 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:35,346 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:29:35,397 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '终止')]")
+2022-05-20 11:29:35,397 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '终止')]")
+2022-05-20 11:29:35,446 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:终止
+2022-05-20 11:29:35,447 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")
+2022-05-20 11:29:35,471 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")清空
+2022-05-20 11:29:35,520 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//textarea[contains(@class, 'el-textarea__inner')]")输入内容:终止
+2022-05-20 11:29:35,520 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:29:35,520 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确定')]")
+2022-05-20 11:29:36,579 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:36,579 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:29:36,608 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '确定')])[2]")
+2022-05-20 11:29:36,608 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '确定')])[2]")
+2022-05-20 11:29:37,168 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:29:37,168 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:29:37,582 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:29:37,582 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '重置')]")
+2022-05-20 11:29:38,818 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:29:38,819 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:29:39,832 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:29:39,832 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:29:39,842 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:29:39,883 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:29:39,883 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:39,883 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:29:41,922 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:29:41,922 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:29:42,941 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:29:42,941 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:29:43,049 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//div[contains(text(), '鉴定/评审')]")
+2022-05-20 11:29:43,049 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//div[contains(text(), '鉴定/评审')]")
+2022-05-20 11:29:44,546 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//a[contains(text(), '专家鉴定')])[1]")
+2022-05-20 11:29:44,546 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//a[contains(text(), '专家鉴定')])[1]")
+2022-05-20 11:29:44,598 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '专家姓名')]/following-sibling::div/div/input")输入内容:专家1
+2022-05-20 11:29:44,598 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '专家姓名')]/following-sibling::div/div/input")
+2022-05-20 11:29:44,629 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '专家姓名')]/following-sibling::div/div/input")清空
+2022-05-20 11:29:44,706 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '专家姓名')]/following-sibling::div/div/input")输入内容:专家1
+2022-05-20 11:29:44,706 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '专家职称')]/following-sibling::div/div/input")输入内容:职称1
+2022-05-20 11:29:44,706 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '专家职称')]/following-sibling::div/div/input")
+2022-05-20 11:29:44,747 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '专家职称')]/following-sibling::div/div/input")清空
+2022-05-20 11:29:44,900 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '专家职称')]/following-sibling::div/div/input")输入内容:职称1
+2022-05-20 11:29:44,901 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '所在单位')]/following-sibling::div/div/input")输入内容:单位1
+2022-05-20 11:29:44,901 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '所在单位')]/following-sibling::div/div/input")
+2022-05-20 11:29:44,944 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '所在单位')]/following-sibling::div/div/input")清空
+2022-05-20 11:29:45,019 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '所在单位')]/following-sibling::div/div/input")输入内容:单位1
+2022-05-20 11:29:45,019 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[1]")输入内容:2022-04-25
+2022-05-20 11:29:45,019 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[1]")
+2022-05-20 11:29:45,061 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[1]")清空
+2022-05-20 11:29:45,144 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[1]")输入内容:2022-04-25
+2022-05-20 11:29:45,144 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//a[contains(text(), '专家鉴定')])[1]")
+2022-05-20 11:29:45,145 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//a[contains(text(), '专家鉴定')])[1]")
+2022-05-20 11:29:45,213 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[1]")输入内容:10w
+2022-05-20 11:29:45,213 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[1]")
+2022-05-20 11:29:45,253 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[1]")清空
+2022-05-20 11:29:45,324 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[1]")输入内容:10w
+2022-05-20 11:29:46,333 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '专家鉴定结果')]")
+2022-05-20 11:29:46,333 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '专家鉴定结果')]")
+2022-05-20 11:29:46,393 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[1]")输入内容:经办人2
+2022-05-20 11:29:46,393 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[1]")
+2022-05-20 11:29:46,421 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[1]")清空
+2022-05-20 11:29:46,512 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[1]")输入内容:经办人2
+2022-05-20 11:29:46,513 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[1]")输入内容:单位2
+2022-05-20 11:29:46,513 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[1]")
+2022-05-20 11:29:46,554 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[1]")清空
+2022-05-20 11:29:46,642 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[1]")输入内容:单位2
+2022-05-20 11:29:46,642 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[2]")输入内容:2022-04-26
+2022-05-20 11:29:46,642 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:29:46,684 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:29:46,757 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[2]")输入内容:2022-04-26
+2022-05-20 11:29:46,757 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[2]")输入内容:11w
+2022-05-20 11:29:46,757 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:29:46,800 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:29:46,903 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[2]")输入内容:11w
+2022-05-20 11:29:46,903 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '专家鉴定结果')]")
+2022-05-20 11:29:46,903 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '专家鉴定结果')]")
+2022-05-20 11:29:48,968 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[1]")
+2022-05-20 11:29:48,968 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[1]")
+2022-05-20 11:29:51,039 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '馆内评审结果')]")
+2022-05-20 11:29:51,039 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '馆内评审结果')]")
+2022-05-20 11:29:51,088 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[3]")输入内容:经办人3
+2022-05-20 11:29:51,088 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[3]")
+2022-05-20 11:29:51,131 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[3]")清空
+2022-05-20 11:29:51,221 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[3]")输入内容:经办人3
+2022-05-20 11:29:51,221 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[2]")输入内容:单位3
+2022-05-20 11:29:51,221 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:29:51,256 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:29:51,349 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[2]")输入内容:单位3
+2022-05-20 11:29:51,349 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[3]")输入内容:2022-04-27
+2022-05-20 11:29:51,349 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[3]")
+2022-05-20 11:29:51,393 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[3]")清空
+2022-05-20 11:29:51,496 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '评定日期')]/following-sibling::div/div/input)[3]")输入内容:2022-04-27
+2022-05-20 11:29:51,497 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[3]")输入内容:12w
+2022-05-20 11:29:51,497 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[3]")
+2022-05-20 11:29:51,585 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[3]")清空
+2022-05-20 11:29:51,719 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '估价范围')]/following-sibling::div/div/input)[3]")输入内容:12w
+2022-05-20 11:29:51,719 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '馆内评审结果')]")
+2022-05-20 11:29:51,719 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '馆内评审结果')]")
+2022-05-20 11:29:53,787 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[3]")
+2022-05-20 11:29:53,787 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[3]")
+2022-05-20 11:29:55,842 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '卖家谈判')]")
+2022-05-20 11:29:55,842 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '卖家谈判')]")
+2022-05-20 11:29:55,901 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[5]")输入内容:经办人4
+2022-05-20 11:29:55,902 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[5]")
+2022-05-20 11:29:55,938 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[5]")清空
+2022-05-20 11:29:56,023 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[5]")输入内容:经办人4
+2022-05-20 11:29:56,023 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[3]")输入内容:单位4
+2022-05-20 11:29:56,023 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[3]")
+2022-05-20 11:29:56,064 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[3]")清空
+2022-05-20 11:29:56,152 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[3]")输入内容:单位4
+2022-05-20 11:29:56,152 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[1]")输入内容:2022-04-28
+2022-05-20 11:29:56,152 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[1]")
+2022-05-20 11:29:56,198 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[1]")清空
+2022-05-20 11:29:56,274 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[1]")输入内容:2022-04-28
+2022-05-20 11:29:56,275 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '确定价格')]/following-sibling::div/div/input")输入内容:13w
+2022-05-20 11:29:56,275 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '确定价格')]/following-sibling::div/div/input")
+2022-05-20 11:29:56,330 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '确定价格')]/following-sibling::div/div/input")清空
+2022-05-20 11:29:56,457 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '确定价格')]/following-sibling::div/div/input")输入内容:13w
+2022-05-20 11:29:56,457 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '卖家谈判')]")
+2022-05-20 11:29:56,457 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '卖家谈判')]")
+2022-05-20 11:29:58,514 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[5]")
+2022-05-20 11:29:58,514 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[5]")
+2022-05-20 11:30:00,568 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[7]")
+2022-05-20 11:30:00,568 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[7]")
+2022-05-20 11:30:02,616 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '领导批复')]")
+2022-05-20 11:30:02,616 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '领导批复')]")
+2022-05-20 11:30:02,672 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[7]")输入内容:经办人5
+2022-05-20 11:30:02,672 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[7]")
+2022-05-20 11:30:02,713 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[7]")清空
+2022-05-20 11:30:02,809 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[7]")输入内容:经办人5
+2022-05-20 11:30:02,809 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[4]")输入内容:单位5
+2022-05-20 11:30:02,809 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[4]")
+2022-05-20 11:30:02,853 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[4]")清空
+2022-05-20 11:30:02,950 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[4]")输入内容:单位5
+2022-05-20 11:30:02,950 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '批复人')]/following-sibling::div/div/input")输入内容:领导1
+2022-05-20 11:30:02,950 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '批复人')]/following-sibling::div/div/input")
+2022-05-20 11:30:03,010 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '批复人')]/following-sibling::div/div/input")清空
+2022-05-20 11:30:03,154 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '批复人')]/following-sibling::div/div/input")输入内容:领导1
+2022-05-20 11:30:03,154 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '批复日期')]/following-sibling::div/div/input")输入内容:2022-04-29
+2022-05-20 11:30:03,155 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '批复日期')]/following-sibling::div/div/input")
+2022-05-20 11:30:03,200 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '批复日期')]/following-sibling::div/div/input")清空
+2022-05-20 11:30:03,278 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '批复日期')]/following-sibling::div/div/input")输入内容:2022-04-29
+2022-05-20 11:30:03,279 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '批复价格')]/following-sibling::div/div/input")输入内容:14w
+2022-05-20 11:30:03,279 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '批复价格')]/following-sibling::div/div/input")
+2022-05-20 11:30:03,318 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '批复价格')]/following-sibling::div/div/input")清空
+2022-05-20 11:30:03,435 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '批复价格')]/following-sibling::div/div/input")输入内容:14w
+2022-05-20 11:30:03,435 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '领导批复')]")
+2022-05-20 11:30:03,435 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '领导批复')]")
+2022-05-20 11:30:05,496 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[9]")
+2022-05-20 11:30:05,496 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[9]")
+2022-05-20 11:30:07,544 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '最终谈判')]")
+2022-05-20 11:30:07,544 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '最终谈判')]")
+2022-05-20 11:30:07,604 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[9]")输入内容:经办人6
+2022-05-20 11:30:07,604 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[9]")
+2022-05-20 11:30:07,645 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[9]")清空
+2022-05-20 11:30:07,739 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人')]/following-sibling::div/div/input)[9]")输入内容:经办人6
+2022-05-20 11:30:07,739 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[5]")输入内容:单位6
+2022-05-20 11:30:07,739 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[5]")
+2022-05-20 11:30:07,804 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[5]")清空
+2022-05-20 11:30:07,918 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '经办人单位')]/following-sibling::div/div/input)[5]")输入内容:单位6
+2022-05-20 11:30:07,918 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[2]")输入内容:2022-04-30
+2022-05-20 11:30:07,918 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:30:07,958 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[2]")清空
+2022-05-20 11:30:08,035 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "(//label[contains(text(), '谈判日期')]/following-sibling::div/div/input)[2]")输入内容:2022-04-30
+2022-05-20 11:30:08,035 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//label[contains(text(), '成交价格')]/following-sibling::div/div/input")输入内容:15w
+2022-05-20 11:30:08,035 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//label[contains(text(), '成交价格')]/following-sibling::div/div/input")
+2022-05-20 11:30:08,093 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//label[contains(text(), '成交价格')]/following-sibling::div/div/input")清空
+2022-05-20 11:30:08,205 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//label[contains(text(), '成交价格')]/following-sibling::div/div/input")输入内容:15w
+2022-05-20 11:30:08,206 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//a[contains(text(), '最终谈判')]")
+2022-05-20 11:30:08,206 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//a[contains(text(), '最终谈判')]")
+2022-05-20 11:30:10,264 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[11]")
+2022-05-20 11:30:10,264 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-radio__inner')])[11]")
+2022-05-20 11:30:12,312 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:30:12,312 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '保存')])[1]")
+2022-05-20 11:30:12,353 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:12,353 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:13,437 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:30:13,437 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:30:14,456 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:30:14,456 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:30:14,535 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '提交确认征集')]")
+2022-05-20 11:30:14,536 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '提交确认征集')]")
+2022-05-20 11:30:15,607 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:30:15,607 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:30:16,658 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:30:16,658 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:30:17,678 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已鉴定')]")
+2022-05-20 11:30:17,678 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已鉴定')]")
+2022-05-20 11:30:18,729 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:18,729 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:18,773 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:18,773 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:19,415 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:19,415 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:19,521 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:19,521 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:25,667 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:30:25,667 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:30:25,691 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:30:25,743 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:30:25,744 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:30:25,744 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:30:27,810 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:30:27,810 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:30:28,845 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:30:28,845 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:30:29,994 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:30:29,994 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:30:30,010 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:30,010 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:32,066 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已终止')]")
+2022-05-20 11:30:32,066 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已终止')]")
+2022-05-20 11:30:33,113 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:33,113 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:33,221 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:33,221 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:33,277 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:33,277 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:33,372 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:33,372 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:39,501 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:30:39,501 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:30:39,512 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:30:39,556 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品02
+2022-05-20 11:30:39,556 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:30:39,556 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:30:41,603 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:30:41,603 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:30:42,626 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:30:42,626 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:30:43,730 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:30:43,730 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:30:43,741 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:43,741 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:30:45,805 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '确认征集')]")
+2022-05-20 11:30:45,805 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '确认征集')]")
+2022-05-20 11:30:46,872 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:46,872 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:30:46,912 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:46,912 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:30:47,471 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:47,472 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:30:47,532 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:47,532 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:30:53,613 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:30:53,613 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:30:53,662 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button/span[contains(text(), '关联合同')])[1]")
+2022-05-20 11:30:53,662 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button/span[contains(text(), '关联合同')])[1]")
+2022-05-20 11:30:53,749 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//p[contains(text(), '请选择关联合同')]")
+2022-05-20 11:30:53,749 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(text(), '请选择关联合同')]")
+2022-05-20 11:31:03,629 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:03,629 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:05,714 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[2]")
+2022-05-20 11:31:05,714 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[2]")
+2022-05-20 11:31:05,762 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '取消关联合同')]")
+2022-05-20 11:31:05,763 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '取消关联合同')]")
+2022-05-20 11:31:06,818 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:06,818 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:07,868 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:31:07,868 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:31:08,883 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:08,883 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:08,910 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button/span[contains(text(), '关联合同')])[1]")
+2022-05-20 11:31:08,910 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button/span[contains(text(), '关联合同')])[1]")
+2022-05-20 11:31:09,002 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//p[contains(text(), '请选择关联合同')]")
+2022-05-20 11:31:09,002 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(text(), '请选择关联合同')]")
+2022-05-20 11:31:18,925 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:18,925 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:21,005 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:21,005 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:31:21,026 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:31:21,070 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:21,070 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:21,070 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:23,117 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:31:23,117 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:31:24,141 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:24,141 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:25,239 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:31:25,239 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:31:25,239 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:25,239 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:27,309 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:27,309 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:27,330 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '提交拨库')]")
+2022-05-20 11:31:27,331 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '提交拨库')]")
+2022-05-20 11:31:28,374 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:28,374 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:29,410 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:31:29,410 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:31:30,434 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已征集')]")
+2022-05-20 11:31:30,434 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已征集')]")
+2022-05-20 11:31:33,517 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:33,517 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:31:33,538 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:31:33,594 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:33,594 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:33,594 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:35,683 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:31:35,683 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:31:36,706 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:36,706 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:37,831 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:31:37,831 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:31:37,852 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:37,852 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:39,911 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '拨库管理')]")
+2022-05-20 11:31:39,911 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '拨库管理')]")
+2022-05-20 11:31:40,946 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:31:40,946 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:31:40,983 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:31:40,983 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:31:41,546 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:31:41,546 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:31:41,598 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:31:41,598 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:31:47,661 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:47,661 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:31:47,682 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:31:47,733 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:31:47,733 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:47,733 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:31:49,767 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:31:49,767 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:31:50,781 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:50,781 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:31:51,906 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:31:51,906 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:31:51,922 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:51,922 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:31:53,981 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:53,981 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(@class, 'el-checkbox__input')])[1]")
+2022-05-20 11:31:54,011 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button/span[contains(text(), '拨库')]")
+2022-05-20 11:31:54,012 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button/span[contains(text(), '拨库')]")
+2022-05-20 11:31:54,084 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button/span[contains(text(), '拨库')])[2]")
+2022-05-20 11:31:54,084 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button/span[contains(text(), '拨库')])[2]")
+2022-05-20 11:31:55,149 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:55,149 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '是')]")
+2022-05-20 11:31:56,322 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', "//p[contains(@class, 'el-message__content')]")的文本
+2022-05-20 11:31:56,322 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//p[contains(@class, 'el-message__content')]")
+2022-05-20 11:31:57,346 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '已拨库')]")
+2022-05-20 11:31:57,346 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '已拨库')]")
+2022-05-20 11:31:58,394 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:31:58,394 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '导出')]")
+2022-05-20 11:31:58,438 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:31:58,438 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "((//span[contains(text(), '选择导出的列')])[1]/parent::label/span)[1]")
+2022-05-20 11:31:58,587 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:31:58,587 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//button[contains(@class, 'el-transfer__button')])[2]")
+2022-05-20 11:31:58,710 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:31:58,710 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//span[contains(text(), '导出')])[5]")
+2022-05-20 11:32:04,828 INFO [root] [base.py (base_input:47] - 准备给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:32:04,828 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//input[@placeholder='藏品名称']")
+2022-05-20 11:32:04,845 INFO [root] [base.py (base_input:51] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")清空
+2022-05-20 11:32:04,882 INFO [root] [base.py (base_input:54] - 正在给元素('xpath', "//input[@placeholder='藏品名称']")输入内容:藏品03
+2022-05-20 11:32:04,883 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:32:04,883 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//span[contains(text(), '查询')]")
+2022-05-20 11:32:06,941 INFO [root] [base.py (base_get_text:70] - 正在获取元素('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')的文本
+2022-05-20 11:32:06,941 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', '//div[3]/table/tbody/tr[1]/td[4]/div')
+2022-05-20 11:32:07,970 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:32:07,970 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//tbody)[2]/tr[1]/td[contains(@class, 'is-center')]/div/button/span")
+2022-05-20 11:32:09,133 INFO [root] [base.py (base_get_value:76] - 正在获取元素('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")的value值
+2022-05-20 11:32:09,133 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "(//label[contains(text(), '藏品名称')]/following-sibling::div/div/input)[2]")
+2022-05-20 11:32:09,148 INFO [root] [base.py (base_click:30] - 正在点击元素:('xpath', "//button[@class='el-dialog__headerbtn']")
+2022-05-20 11:32:09,148 INFO [root] [base.py (base_find_element:19] - 正在查找元素:('xpath', "//button[@class='el-dialog__headerbtn']")
