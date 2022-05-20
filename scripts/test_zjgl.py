@@ -476,7 +476,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例033-035
     # 新增-测试方法
-    @parameterized.expand([('征集单1', '藏品1', '添加成功！'), ('征集单1', '藏品2', '添加成功！'), ('征集单1', '藏品3', '添加成功！')])
+    @parameterized.expand([('征集单1', '藏品01', '添加成功！'), ('征集单1', '藏品02', '添加成功！'), ('征集单1', '藏品03', '添加成功！')])
     def test033_035(self, for_form, add_collection_name, expect_result):
         sleep(1)
         # 调用方法
@@ -515,7 +515,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例038
     # 查询-测试方法
-    @parameterized.expand(['藏品1'])
+    @parameterized.expand(['藏品01'])
     def test038(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -531,7 +531,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例039
     # 编辑-测试方法
-    @parameterized.expand([('藏品1修改', '更新成功！')])
+    @parameterized.expand([('藏品01修改', '更新成功！')])
     def test039(self, collection_name, expect_result):
         sleep(1)
         self.login.page_collection_edit(collection_name)
@@ -547,7 +547,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例040
     # 查询-测试方法
-    @parameterized.expand(['藏品1修改'])
+    @parameterized.expand(['藏品01修改'])
     def test040(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -579,7 +579,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例042
     # 查询-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test042(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -611,7 +611,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例044
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test044(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -651,7 +651,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例047
     # 查询-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test047(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -667,7 +667,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例048
     # 查看-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test048(self, name):
         sleep(1)
         try:
@@ -690,7 +690,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例050
     # 查询-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test050(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -722,7 +722,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例052
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test052(self, collection_name):
         sleep(1)
         self.login.page_collection_search(collection_name)
@@ -793,7 +793,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例056
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test056(self, name):
         sleep(1)
         self.login.page_collection_search(name)
@@ -809,7 +809,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例057
     # 查看-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test057(self, name):
         sleep(1)
         try:
@@ -831,13 +831,13 @@ class TestLogin(unittest.TestCase):
 
     # 用例059
     # 查询-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test059(self, name):
         sleep(1)
         self.login.page_collection_search(name)
         try:
             # 获取提示信息
-            msg = self.login.page_get_row1_list1()
+            msg = self.login.page_get_row1_list3()
             print(msg)
             # 断言
             self.assertEqual(msg, name)
@@ -847,7 +847,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例060
     # 查看-测试方法
-    @parameterized.expand(['藏品2'])
+    @parameterized.expand(['藏品02'])
     def test060(self, name):
         sleep(1)
         try:
@@ -900,7 +900,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例065
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test065(self, name):
         sleep(1)
         self.login.page_collection_search(name)
@@ -916,7 +916,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例066
     # 查看-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test066(self, name):
         sleep(1)
         try:
@@ -947,7 +947,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例068
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test068(self, name):
         sleep(1)
         self.login.page_click_yzj()
@@ -965,7 +965,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例069
     # 查看-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test069(self, name):
         sleep(1)
         try:
@@ -988,7 +988,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例071
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test071(self, name):
         sleep(1)
         self.login.page_collection_search(name)
@@ -1004,7 +1004,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例072
     # 查看-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test072(self, name):
         sleep(1)
         try:
@@ -1042,7 +1042,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例075
     # 查询-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test075(self, name):
         sleep(1)
         self.login.page_collection_search(name)
@@ -1058,7 +1058,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例076
     # 查看-测试方法
-    @parameterized.expand(['藏品3'])
+    @parameterized.expand(['藏品03'])
     def test076(self, name):
         sleep(1)
         try:
