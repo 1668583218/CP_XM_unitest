@@ -490,6 +490,7 @@ class PageLogin(Base):
         self.page_input_designated_person(person)
         self.page_click_save_btn()
         self.page_click_cancel_btn()
+        sleep(1)
 
     # 线索查询-组合业务方法
     def page_list_search(self, name):
@@ -504,6 +505,7 @@ class PageLogin(Base):
         self.page_input_add_thread_name(name)
         self.page_click_save_btn()
         self.page_click_close_btn()
+        sleep(1)
 
     # 批量指派-组合业务方法
     def page_batch_assigned(self):
@@ -511,6 +513,7 @@ class PageLogin(Base):
         self.page_click_batch_assigned_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 废弃-组合业务方法
     def page_list_abandon(self, cause):
@@ -521,6 +524,7 @@ class PageLogin(Base):
         sleep(1)
         self.page_click_yes_btn()
         self.page_click_reset_btn()
+        sleep(1)
 
     # 导出-组合业务方法
     def page_list_export(self):
@@ -547,6 +551,7 @@ class PageLogin(Base):
         sleep(1)
         self.page_click_two_import_btn()
         self.page_click_close_btn()
+        sleep(1)
 
     # 终止-组合业务方法
     def page_end(self, c_time, cause):
@@ -558,6 +563,7 @@ class PageLogin(Base):
         sleep(1)
         self.page_click_yes_btn()
         self.page_click_reset_btn()
+        sleep(1)
 
     # 填写日志-组合业务方法
     def page_write_log(self, c_time, xs_log):
@@ -567,6 +573,7 @@ class PageLogin(Base):
         self.page_click_log_add_btn()
         self.page_click_close_btn()
         self.page_click_reset_btn()
+        sleep(1)
 
     # 完成跟踪-组合业务方法
     def page_trace_over(self):
@@ -574,6 +581,7 @@ class PageLogin(Base):
         self.page_click_trace_over_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 新增征集单-组合业务方法
     def page_form_add(self, form_name, xs_name):
@@ -581,6 +589,7 @@ class PageLogin(Base):
         self.page_input_form_name(form_name)
         self.page_input_form_xs_name(xs_name)
         self.page_click_save_btn()
+        sleep(1)
 
     # 新增藏品-组合业务方法
     def page_collection_add(self, for_form, add_collection_name):
@@ -604,6 +613,7 @@ class PageLogin(Base):
         self.page_input_add_collection_name(collection_name)
         self.page_click_collection_confirm_btn()
         self.page_click_close_btn()
+        sleep(1)
 
     # 查看藏品-组合业务方法
     def page_check_collection(self):
@@ -619,6 +629,7 @@ class PageLogin(Base):
         self.page_click_delete_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 提交征集-组合业务方法
     def page_submit_collect(self):
@@ -626,6 +637,7 @@ class PageLogin(Base):
         self.page_click_submit_collect_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 征集终止-组合业务方法
     def page_collect_over(self, cause):
@@ -638,6 +650,7 @@ class PageLogin(Base):
         self.page_click_two_confirm_btn()
         self.page_click_close_btn()
         self.page_click_reset_btn()
+        sleep(1)
 
     # 藏品鉴定-组合业务方法
     def page_collect_authenticate(self,
@@ -716,6 +729,7 @@ class PageLogin(Base):
         self.page_click_submit_confirm_collect_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 关联合同-组合业务方法
     def page_association_rules(self, file_name_path):
@@ -725,6 +739,7 @@ class PageLogin(Base):
         import_file(file_name_path)
         sleep(2)
         self.page_click_close_btn()
+        sleep(1)
 
     # 取消关联合同-组合业务方法
     def page_cancle_association_rules(self):
@@ -732,6 +747,7 @@ class PageLogin(Base):
         self.page_click_cancle_association_rules_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 提交拨库-组合业务方法
     def page_submit_warehouse(self):
@@ -739,6 +755,7 @@ class PageLogin(Base):
         self.page_click_submit_warehouse_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
 
     # 拨库-组合业务方法
     def page_warehouse(self):
@@ -749,3 +766,4 @@ class PageLogin(Base):
         self.page_click_two_warehouse_btn()
         sleep(1)
         self.page_click_yes_btn()
+        sleep(1)
