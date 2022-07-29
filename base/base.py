@@ -53,6 +53,14 @@ class Base:
         el.send_keys(value)
         log.info('正在给元素{}输入内容:{}'.format(loc, value))
 
+    # 导入文件输入方法
+    def base_input_file(self, loc, value):
+        log.info('准备给元素{}输入内容:{}'.format(loc, value))
+        el = self.base_find_element(loc)
+        # 输入
+        el.send_keys(value)
+        log.info('正在给元素{}输入内容:{}'.format(loc, value))
+
     # # 弹出框输入方法
     # def base_twice_input(self, loc, loc_son, value):
     #     log.info('准备给元素{}输入内容:{}'.format(loc_son, value))
