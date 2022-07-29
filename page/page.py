@@ -242,6 +242,10 @@ class PageLogin(Base):
     def page_click_confirm_btn(self):
         self.base_click(page.confirm_btn)
 
+    # 废弃界面-点击时间此刻按钮
+    def page_click_time_now_btn(self):
+        self.base_click(page.time_now_btn)
+
     # 导出界面-点击导出的列全选框
     def page_click_input_select_all(self):
         self.base_click(page.input_select_all)
@@ -556,6 +560,8 @@ class PageLogin(Base):
         self.page_click_all_btn()
         self.page_click_end_btn()
         self.page_input_c_time(c_time)
+        sleep(1)
+        self.page_click_time_now_btn()
         self.page_input_cause(cause)
         self.page_click_confirm_btn()
         sleep(1)
@@ -567,6 +573,8 @@ class PageLogin(Base):
     def page_write_log(self, c_time, xs_log):
         self.page_click_list_operate_btn()
         self.page_input_c_time(c_time)
+        sleep(1)
+        self.page_click_time_now_btn()
         self.page_input_xs_log(xs_log)
         self.page_click_log_add_btn()
         self.page_click_close_btn()
@@ -733,8 +741,8 @@ class PageLogin(Base):
     def page_association_rules(self, file_name_path):
         self.page_click_all_btn()
         self.page_click_association_rules_btn()
-        self.page_click_select_rules_btn()
-        import_file(file_name_path)
+        sleep(1)
+        self.page_input_select_file_btn(file_name_path)
         sleep(2)
         self.page_click_close_btn()
         sleep(1)
@@ -761,6 +769,7 @@ class PageLogin(Base):
         self.page_click_warehouse_btn()
         # self.page_input_aim_warehouse(aim_warehouse)
         # self.page_input_collectible_classify(collectible_classify)
+        sleep(1)
         self.page_click_two_warehouse_btn()
         sleep(1)
         self.page_click_yes_btn()
