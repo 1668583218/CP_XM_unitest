@@ -13,6 +13,8 @@ class GetDriver:
             # 设置谷歌对象
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_argument("--headless")
+            # 设置浏览器分辨率，opt会导致maximize最大化失败
+            chrome_options.add_argument('--window-size=1920,1080')
             # 实例化浏览器
             cls.driver = webdriver.Chrome(chrome_options=chrome_options)
             # 最大化
