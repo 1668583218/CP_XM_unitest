@@ -10,8 +10,11 @@ class GetDriver:
     @classmethod
     def get_driver(cls):
         if cls.driver is None:
+            # 设置谷歌对象
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument("--headless")
             # 实例化浏览器
-            cls.driver = webdriver.Chrome()
+            cls.driver = webdriver.Chrome(chrome_options=chrome_options)
             # 最大化
             cls.driver.maximize_window()
             # 打开浏览器
