@@ -128,6 +128,8 @@ cancel_btn = By.XPATH, "//span[contains(text(), '取消')]"
 cause = By.XPATH, "//textarea[contains(@class, 'el-textarea__inner')]"
 # 确定按钮
 confirm_btn = By.XPATH, "//span[contains(text(), '确定')]"
+# 时间界面此刻按钮
+time_now_btn = By.XPATH, "//span[contains(text(), '此刻')]"
 
 """以下为导出界面元素配置信息"""
 # 二次导出按钮
