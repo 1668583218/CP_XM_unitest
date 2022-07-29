@@ -139,7 +139,7 @@ input_right_button = By.XPATH, "(//button[contains(@class, 'el-transfer__button'
 
 """以下为导入界面元素配置信息"""
 # 选取文件按钮
-select_file_btn = By.XPATH, "//span[contains(text(), '选取文件')]"
+select_file_btn = By.XPATH, "//input[contains(@type, 'file')]"
 # 二次导入按钮
 two_import_btn = By.XPATH, "(//span[contains(text(), '导入')])[4]"
 
