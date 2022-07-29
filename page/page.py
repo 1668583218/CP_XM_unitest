@@ -4,7 +4,6 @@ from base.base import Base
 from tool.import_file import import_file
 
 
-
 class PageLogin(Base):
     # 输入用户名
     def page_input_username(self, username):
@@ -255,9 +254,9 @@ class PageLogin(Base):
     def page_click_two_export_btn(self):
         self.base_click(page.two_export_btn)
 
-    # 导入界面-点击选取文件按钮
-    def page_click_select_file_btn(self):
-        self.base_click(page.select_file_btn)
+    # 导入界面-输入选取文件按钮的值
+    def page_input_select_file_btn(self, file):
+        self.base_input_file(page.select_file_btn, file)
 
     # 导入界面-点击二次导入按钮
     def page_click_two_import_btn(self):
@@ -544,10 +543,9 @@ class PageLogin(Base):
         return value
 
     # 导入-组合业务方法
-    def page_file_import(self, file_name_path):
+    def page_file_import(self, file):
         self.page_click_import_btn()
-        self.page_click_select_file_btn()
-        import_file(file_name_path)
+        self.page_input_select_file_btn(file)
         sleep(1)
         self.page_click_two_import_btn()
         self.page_click_close_btn()
