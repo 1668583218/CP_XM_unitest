@@ -870,7 +870,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例062
     # 关联合同-测试方法
-    @parameterized.expand(["C:\\Users\\caojingwei\\Desktop\\合同.jpg"])
+    @parameterized.expand(["C:\\Users\\caojingwei\\Desktop\\合同.png"])
     def test062(self, file_name_path):
         sleep(1)
         self.login.page_association_rules(file_name_path)
@@ -893,7 +893,7 @@ class TestLogin(unittest.TestCase):
 
     # 用例064
     # 关联合同-测试方法
-    @parameterized.expand(["C:\\Users\\caojingwei\\Desktop\\合同.jpg"])
+    @parameterized.expand(["C:\\Users\\caojingwei\\Desktop\\合同.png"])
     def test064(self, file_name_path):
         sleep(1)
         self.login.page_association_rules(file_name_path)
