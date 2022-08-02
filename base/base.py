@@ -1,4 +1,5 @@
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from tool.get_log import GetLogger
 import time
@@ -119,3 +120,27 @@ class Base:
     def base_move(self, loc):
         log.info('正在把鼠标悬停在元素:{}之上'.format(loc))
         self.action.move_to_element(self.base_find_element(loc)).perform()
+
+    # 进入框架方法
+    def base_goto_frame(self, frame_name):
+        log.info('正在进入框架:{}'.format(frame_name))
+        self.driver.switch_to.frame(frame_name)
+
+    # 返回默认框架方法
+    def base_quit_frame(self):
+        log.info('正在返回默认框架')
+        self.driver.switch_to.default_content()
+
+    # 进入下拉框方法
+    def base_choice_select(self, loc):
+        log.info('正在定位下拉框{}'.format(loc))
+        select = Select(self.base_find_element(loc))
+        return select
+
+    # 下拉框通过value定位
+    def base_select_value(self, loc, value):
+        self.base_choice_select(loc).select_by_value(value)
+
+    # 下拉框通过index定位
+    def base_select_index(self, loc, index):
+        self.base_choice_select(loc).select_by_index(index)
