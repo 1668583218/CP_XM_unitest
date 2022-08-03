@@ -13,13 +13,6 @@ import time
 # 定义 测试套件
 from tool.HTMLTestRunner import HTMLTestRunner
 
-import sys
-import os
-# 把环境变量写进来
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
-sys.path.append(rootPath)
-
 suite = unittest.defaultTestLoader.discover("../scripts", pattern="test*.py")
 # 定义报告存放路径及文件名称
 report_dir = ("../report/{}.html".format(time.strftime("%Y_%m_%d %H_%M_%S")))
