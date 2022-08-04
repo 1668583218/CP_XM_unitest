@@ -20,7 +20,6 @@ pipeline{
 }
     post {
     always {
-    // One or more steps need to be included within each condition's block.
     emailext attachmentsPattern:
         'report/1.html',
     body:
