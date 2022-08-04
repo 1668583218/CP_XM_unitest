@@ -5,13 +5,13 @@ pipeline{
         	steps{
         	bat '''
         	        cd report
-                    rm *.html
+                    del *.html
                     cd ..
         	        cd scripts
                     python run_html.py
                     cd ..
                     cd report
-                    ren *.html 测试报告.html
+                    ren *.html 1.html
                     '''
 
 
@@ -22,7 +22,7 @@ pipeline{
     always {
     // One or more steps need to be included within each condition's block.
     emailext attachmentsPattern:
-        'report/测试报告.html',
+        'report/1.html',
     body:
         '''<html>
                 <h1>${TEST_COUNTS,var="pass"}</h1>
