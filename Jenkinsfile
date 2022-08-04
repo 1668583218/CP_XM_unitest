@@ -11,7 +11,7 @@ pipeline{
                     python run_html.py
                     cd ..
                     cd report
-                    ren *.hmtl 测试报告.html
+                    ren *.html 测试报告.html
                     '''
 
 
