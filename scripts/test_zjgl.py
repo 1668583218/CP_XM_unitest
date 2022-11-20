@@ -5,6 +5,7 @@ from base.get_driver import GetDriver
 from page.page import PageLogin
 from parameterized import parameterized
 from tool.export import get_filename
+from tool.get_verification import YdmVerify
 
 
 # 新建测试类 并 继承
@@ -21,8 +22,12 @@ class TestLogin(unittest.TestCase):
         cls.login.page_input_username("shuirr")
         # 输入密码
         cls.login.page_input_password("ok111111")
-        # # 输入验证码
-        # cls.login.page_input_ver("888")
+        # 验证码截图
+        png_file = cls.login.page_screenshot_verification_png()
+        # 调用接口识别验证码
+        verification_code = YdmVerify().common_verify(png_file)
+        # 输入验证码
+        cls.login.page_input_ver(verification_code)
         # 点击登录按钮
         cls.login.page_click_login_btn()
         # 点击藏品管理
